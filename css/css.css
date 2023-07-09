@@ -88,18 +88,8 @@ padding-top: 10px;
 }
 
 
-/* media */
-@media only screen and (max-width: 987px){
-	.navbar-brand{
-		padding-left: 0px;
-	}
-}
 
-@media only screen and (max-width: 768px){
-	#banner-row img{
-		padding-top: 20px;
-	}
-}
+
 .social-col{
 	width: 33%;
 }
@@ -183,4 +173,15 @@ p a{
 }
 p a:hover{
     color:#122554;
+}
+.icons a{
+ color:white;
+ margin-left: 20px;
+ 
+}
+.icons a:hover{
+    color:white; 
+}
+a i{
+    font-size: 20pt !important;
 }
